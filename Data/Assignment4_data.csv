@@ -1,0 +1,11 @@
+﻿Patient,Freq,bloodp,first,second,finaldecision
+1,0.60,103,bad,low,low
+2,0.30,87,bad,low,high
+3,0.40,32,bad,high,low
+4,0.40,42,bad,high,high
+5,0.20,59,good,low,low
+6,0.60,109,good,low,high
+7,0.30,78,good,high,low
+8,0.40,205,good,high,high
+9,0.90,135,NA,high,high
+10,0.20,176,bad,high,high
