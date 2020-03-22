@@ -12,6 +12,7 @@ library(tidyverse)
 
 # read the data
 melanoma <- read_csv("Data/melanoma.csv")
+melanoma
 
 # check if there are any missing values
 anyNA(melanoma)
@@ -19,6 +20,7 @@ anyNA(melanoma)
 # turn status, sex, and ulcer into factor variables
 melanoma2 <- melanoma %>% 
     mutate(status = factor(status), sex = factor(sex), ulcer = factor(ulcer), time_years = time/365)
+melanoma2
 
 # make some plots with the base plotting system
 boxplot(time ~ ulcer, melanoma2,
