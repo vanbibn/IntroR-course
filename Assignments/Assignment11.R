@@ -1,6 +1,9 @@
+# Nathan W. Van Bibber
+# 3/29/2020
+# Assignment 11 
 
-
-install.packages("funModeling")
+# load packages
+# install.packages("funModeling")
 library(funModeling)
 
 tukey_multiple <- function(x) {
